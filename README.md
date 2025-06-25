@@ -2,7 +2,7 @@
 
 We hear the word AI everywhere these days  in tech talks, news headlines, or even casual conversations. But what does it actually mean in real life? The truth is, Artificial Intelligence isn’t just a thing of the future anymore. It’s already here, blending quietly into our daily routines and changing how we live, often without us even realizing it.
 
-Let’s take a closer look at how AI is slowly  and smartly — becoming part of our everyday life
+Let’s take a closer look at how AI is slowly  and smartly becoming part of our everyday life
 ## 🛍️ Smarter Shopping, Less Effort
 
 If you’ve ever bought one thing on Amazon and then ended up buying three more, you’re not alone. AI powers product suggestions, personalized ads, and even price changes based on demand.
@@ -23,4 +23,4 @@ It’s like having a tiny AI assistant in your hand all the time  helping you wo
 
 AI isn't just about robots and sci-fi  it’s about small, smart changes that make everyday life smoother. From what you watch to how you shop or even how you learn, AI is already making an impact.
 
-And the best part? You don’t need to be a techie to benefit from it. You’re already part of the AI era  just by using your phone, streaming a show, or asking, “Hey Google…”
+And the best part? You don’t need to be a techie to benefit from it. You’re already part of the AI era  just by using your phone, streaming a show, or asking, “Hey Google”
