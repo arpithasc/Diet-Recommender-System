@@ -38,17 +38,38 @@ Recipes tagged with full nutritional information and preparation steps.
 
 Queried dynamically to generate recommendations based on vector similarity.
 
-## 4. DevOps & MLOps Integration
-## ▸ CI/CD Pipeline (DevOps)
-Tool	             Purpose
-Git	               Version control for code and configurations
-Docker	           Containerization of backend and frontend
-Jenkins	           Automated builds, tests, and Docker builds
-Kubernetes+Helm    Container orchestration and service scaling
+## 4. API Design Snapshot
+POST /predict/
 
-## ▸ MLOps Workflow
-Component	Functionality
-TFX Pipelines      	Data preprocessing, feature extraction
-MLFlow	            Model tracking, experiment logging, model registry
-DVC	                Dataset versioning and lineage tracking
-Monitoring	        Real-time drift detection and model degradation alerts
+Payload:
+{
+  "nutrition_input": [calories, fat, sugar, protein, ...],
+  "ingredients": ["chicken", "spinach"],
+  "params": {
+    "n_neighbors": 5,
+    "return_distance": false
+  }
+}
+
+## Response:
+{
+  "output": [
+    {
+      "Name": "Grilled Chicken Salad",
+      "Calories": 320,
+      "RecipeInstructions": [...],
+      ...
+    }
+  ]
+}
+
+## 5. Deployment and Monitoring
+Docker-based microservices deployed across Kubernetes clusters for horizontal scalability.
+
+Streamlit and FastAPI containers run independently for modular updates.
+
+Performance is monitored via Prometheus and Grafana, with logs aggregated through ELK stack.
+
+ML models retrained based on feedback thresholds via MLFlow triggers.
+
+
